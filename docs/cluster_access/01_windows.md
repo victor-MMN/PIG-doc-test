@@ -12,6 +12,9 @@ En el buscador ingresamos _wsl_ y nos saldran opciones de sistemas linux (distri
 
 ## Instalacion y configuracion
 
+```bash
+git clone https://github.com/hiramcastillo36/PIG-Resources.git
+```
 Explicamos .Si no sabes cual es tu contrasena de administrador puedes ver cómo hacerlo en la [sección de cambiar contrasena de administrador](#reset-pass).
 
 ![PIG Platform Logo](../assets/images/logo_pig.png){ style="display: block; margin: 0 auto; width: 500px;" }
