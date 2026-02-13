@@ -1,0 +1,40 @@
+site_name: Documentacion de prueba de PIG
+site_url: https://github.com/victor-MMN/PIG-doc-test/main
+theme:
+    name: material
+
+    palette:
+      # Dark mode
+      - scheme: slate
+        toggle:
+          icon: material/weather-sunny
+          name: Light mode
+        primary: teal
+        accent: light green
+
+      # Light mode
+      - scheme: default
+        toggle:
+          icon: material/weather-night
+          name: Night mode
+        primary: teal
+        accent: light green
+
+    font:
+      text: Merriweather Sans
+      code: JetBrains Mono
+
+    features:
+      - navigation.indexes
+
+nav:
+  - Acceso al cluster de PIG:
+    - cluster_access/01_windows.md
+
+markdown_extensions:
+   - admonition
+   - pymdownx.details
+   - pymdownx.superfences
+   - footnotes
+   - attr_list
+   - md_in_html
