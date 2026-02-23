@@ -11,7 +11,7 @@ theme:
         primary: teal
         accent: light green
 
-      - scheme: stale
+      - scheme: slate
         toggle:
           icon: material/weather-night
           name: Night mode
@@ -29,7 +29,7 @@ nav:
   - Acceso al cluster de PIG:
     - cluster_access/01_linux.md
     - cluster_access/02_windows.md
-
+    - cluster_access/03_my_fist_pod.md
 markdown_extensions:
    - admonition
    - pymdownx.details
